@@ -1,0 +1,89 @@
+body{
+	font-family: "Cinzel Decorative";
+	justify-content: center;
+	align-items: center;
+	background: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+#speles_laukums{
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	background-image: url('zale.jpg');
+	height: 100%;
+	background-size: cover;
+}
+
+
+#cepure{
+	position: absolute;
+	z-index: 100;
+}
+.galvas{
+	position:absolute;
+}
+
+#rezultats{
+	position: absolute;
+	z-index: 100;
+	background-color: rgb(230, 235, 237, 0.7);
+	margin: 10px;
+	right: 0px;
+	
+}
+#rezultats th img{
+	width: 100px;
+	height: 100px;
+}
+#rezultats td{
+	font-weight: bold;
+	text-align: center;
+	font-size: 120%;
+	padding-top: 14px;
+}
+
+#score_table{
+	display: none;
+	position: absolute;
+	z-index: 200;
+	top: 0;
+	left:0;
+	background-color: rgb(175, 179, 186, 0.9);
+	width: 100%;
+	height: 100%;
+}
+#score_table tr {
+	vertical-align:top;
+}
+
+.sejas {
+	transform: rotate(180deg);
+	height: 50px;
+	
+}
+
+.vards {
+	font-weight: bold;
+	text-align: center;
+	font-size: 120%;
+	padding-top: 14px;
+}
+
+.tabula {
+	margin: 0 auto;
+	margin-top:100px;
+}
+
+.poga {
+	font-family: "Cinzel Decorative";
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	background-color: #ff0019; 
+ 	border-line: 2px #788994;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 10px;
+}
