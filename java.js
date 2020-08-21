@@ -74,6 +74,7 @@ function start(){
 	intervalsGalvasPievienosana = setInterval(function(){ pievienotGalvu(); }, pauzeStarpKritieniem);
 	setInterval(function(){ galvasKrit(); }, cikArtiKritGalvas);
 	atraditRezultatu();
+	
 }
  
 function atraditRezultatu(){

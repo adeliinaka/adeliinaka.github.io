@@ -87,3 +87,33 @@ body{
 	font-size: 16px;
 	border-radius: 10px;
 }
+
+#pa_labi {
+	font-family: "Cinzel Decorative";
+	position: absolute;
+	z-index: 150;
+	top: 960px;
+	left: 1750px;
+	background-color: #ff0019; 
+ 	border-line: 2px #788994;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+#pa_kreisi {
+	font-family: "Cinzel Decorative";
+	position: absolute;
+	z-index: 150;
+	top: 960px;
+	left: 40px;
+	background-color: #ff0019; 
+ 	border-line: 2px #788994;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 10px;
+}
