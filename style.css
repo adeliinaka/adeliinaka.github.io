@@ -94,7 +94,7 @@ body{
 	z-index: 150;
 	bottom: 40px;
 	right: 40px;
-	background-color: #ff0019; 
+	background-color: #ff0019 0.7; 
  	border-line: 2px #788994;
 	color: white;
 	padding: 80px 60px;
@@ -109,7 +109,7 @@ body{
 	z-index: 150;
 	bottom: 40px;
 	left: 40px;
-	background-color: #ff0019; 
+	background-color: #ff0019 0.7; 
  	border-line: 2px #788994;
 	color: white;
 	padding: 80px 60px;

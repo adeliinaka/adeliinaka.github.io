@@ -29,6 +29,7 @@ var oneStepCepurei = 50;
 var pauzeStarpKritieniem = 3000;
 var cikArtiKritGalvas = 500;
 var intervalsGalvasPievienosana;
+var spiestIntervals;
 
 function leftArrowPressed() {
 	cepure = document.getElementById("cepure");
@@ -63,6 +64,23 @@ function moveSelection(evt) {
 		rightArrowPressed();
 		break;
 	}
+}
+
+
+function spiestPoguKreisi() {
+	spiestIntervals = setInterval( leftArrowPressed ,100 );
+}
+
+function nespiestPoguKreisi() {
+	clearInterval(spiestIntervals);
+}
+
+function spiestPoguLabi() {
+	spiestIntervals = setInterval( rightArrowPressed ,100 );
+}
+
+function nespiestPoguLabi() {
+	clearInterval(spiestIntervals);
 }
 
 function start(){
