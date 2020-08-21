@@ -92,8 +92,8 @@ body{
 	font-family: "Cinzel Decorative";
 	position: absolute;
 	z-index: 150;
-	top: 960px;
-	left: 1750px;
+	bottom: 40px;
+	right: 40px;
 	background-color: #ff0019; 
  	border-line: 2px #788994;
 	color: white;
@@ -107,7 +107,7 @@ body{
 	font-family: "Cinzel Decorative";
 	position: absolute;
 	z-index: 150;
-	top: 960px;
+	bottom: 40px;
 	left: 40px;
 	background-color: #ff0019; 
  	border-line: 2px #788994;
